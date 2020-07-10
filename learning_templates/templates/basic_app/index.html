@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %}
+{% load extra_filters %}
+  {% block body_block %}
+    <h1>WELCOME TO INDEX</h1>
+    <h2>This is meant to be the home page of our website</h2>
+    <h3>{{ text }}</h3>
+    <button type="submit" class="btn btn-primary">Lower</button>
+  {% endblock %}
